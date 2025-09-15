@@ -1,0 +1,274 @@
+/* Questão 2 */
+
+header {
+  display: block;
+  margin-bottom: 1px;
+}
+
+nav {
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+section {
+  display: block;
+  width: 70%;
+  float: right;
+}
+
+body {
+  color: #FFEE44;
+  font-size: 16px;
+  background-color: #2277DD;
+  font-family: stoke, Lucida Bright, liberation;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFEE55;
+}
+
+a:visited {
+  color: #FFEE33;
+}
+
+ol {
+  line-height: 200%;
+}
+ul {
+  line-height: 200%;
+}
+
+nav ul {
+  color: #FFEE44;
+  margin-top: 40px;
+  line-height: 230%;
+  list-style-type: square;
+}
+
+.ender {
+  float: right;
+  text-align: right;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: karla, verdana, ubuntu;
+}
+
+img.imgLogo {
+  border-bottom: 3px solid #FFFFFF;
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+}
+
+div.apres {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Questão 3 */
+
+.titulo {
+  text-align: center;
+}
+
+.listaMat {
+  /* Width pedida pela AD -> 340px (Optei por usar 75% para aproveitar melhor o espaço vazio da página) */
+  width: 75%;
+  color: #202020;
+  background-color: #EEEEBB;
+  border: 3px solid #202020;
+  padding: 10px 10px 10px 30px;
+  margin: 0px auto 10px auto;
+  list-style-type: square;
+}
+
+.preco {
+  color: #CC0000;
+}
+
+.listaMat ul {
+  list-style-type: square;
+}
+
+.listaMat ol {
+  color: #202020;
+  list-style-type: lower-alpha; 
+}
+
+/* Questão 4*/
+
+.tabAcab {
+  border-collapse: collapse;
+
+/* margin-top pedida pela AD -> 6px (Optei por usar os mesmos valores de formatação da classe .listaMat:
+*  
+*  padding: 10px 10px 10px 30px;
+*  margin: 0px auto 10px auto;
+*  width: 75%;
+*
+*/
+
+  padding: 10px 10px 10px 30px;
+  margin: 0px auto 10px auto;
+  width: 75%;
+  font-size: 15px;
+  background-color: #FFFFCC;
+  color: #000000;
+  font-family: karla, verdana, ubuntu;
+}
+
+.tabAcab th {
+  border: 2px solid #000000;
+  padding: 6px 12px 6px 12px;
+}
+
+.tabAcab td {
+  border: 2px solid #000000;
+  padding: 6px 12px 6px 12px;
+  text-align: center; 
+}
+
+.tabAcab .linTH {
+  color: #EEEE00;
+  background-color: #666666;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tabAcab .colTH {
+  color: #000000;
+  background-color: #AAAAAA;
+  text-align: left;
+}
+
+.tabAcab .imgAcab {
+  width: 60px;
+  height: 44px;
+}
+
+/* Questão 5*/
+
+.divCompras {
+  width: 550px;
+  color: #000000;
+  background-color: #FFFFCC;
+  padding: 6px 6px 15px 6px;
+  font-size: 12px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+}
+
+.listaCompras {
+  float: right;
+  width: 210px;
+  height: 160px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.colLabSelProd {
+  width: 230px;
+  height: 40px;
+  float: left;
+}
+
+.colSelProd {
+  width: 160px;
+  float: right;
+}
+
+.linhaProdSel {
+  float: left;
+  width: 220px;
+  margin-bottom: 6px;
+}
+
+.elemEsq {
+  float: left;
+  display:block;
+}
+
+.elemDir {
+  float: right;
+  display:block;
+}
+
+.botoes {
+  text-align: right;
+  margin: 20px 10px 0px 10px;
+}
+
+.fsEsq {
+  float: left;
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+
+.fsDir {
+  float: right;
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+
+
+.inpGrande { 
+  width: 380px; 
+}
+
+.inpMedio { 
+  width: 80px;
+}
+
+.inpNCC { 
+  width: 130px;
+}
+
+.inpTelef { 
+  width: 90px;
+}
+
+.inpEnder { 
+  width: 180px; 
+  height: 50px; 
+}
+
+.numDD { 
+  width:30px;
+}
+
+.numQD { 
+  width:50px;
+}
+
+.divLinha {
+  width: 500px;
+  margin-bottom: 6px;
+}
+
+.colLabCrd {
+  width: 260px;
+  height: 40px;
+  float: left;
+}
+
+.colPri {
+  float: left;
+  width: 90px;
+  display: block;
+}
+
+.colPriCompras {
+  float: left;
+  width: 86px;
+  display: block;
+}
+
+.colPriPag {
+  float: left;
+  width: 250px;
+  display: block;
+}
