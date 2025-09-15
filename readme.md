@@ -14,19 +14,19 @@ A primeira avaliação consiste na implementação de quatro telas para a loja d
 
 - Apresentação
 
-![apresentacao](./imagensrepo/acabamentos.png)
+![apresentacao](./ImagensRepo/acabamentos.png)
 
 - Materiais
 
-![materiais](./imagensrepo/materiais.png)
+![materiais](./ImagensRepo/materiais.png)
 
 - Acabamentos
 
-![acabamentos](./imagensrepo/acabamentos.png)
+![acabamentos](./ImagensRepo/acabamentos.png)
 
 - Pedidos
 
-![pedidos](./imagensrepo/pedidos.png)
+![pedidos](./ImagensRepo/pedidos.png)
 
 ## Avaliação a Distância 2
 
